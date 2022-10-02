@@ -224,7 +224,7 @@ aside .sidebar .profile {
   text-decoration: none;
 }
 .sidebar .premium i {
-  color: yellow;
+  color: rgb(241, 123, 19);
 }
 .sidebar .latest {
   text-align: left;
@@ -304,14 +304,18 @@ main .content .search img {
   cursor: pointer;
 }
 main .content .search h2 {
-  color: rgb(246, 3, 120);
-  font-weight: 200;
-  font-weight: bold;
+  color: rgb(200, 45, 214);
+  font-weight:bold;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+  
 }
 main .content .wallpaper img {
   display: flex;
   align-content: center;
   width: 100%;
+  padding: 5px;
  
 }
 main .content .links {
@@ -326,6 +330,25 @@ main .content .links {
   justify-content: space-around;
   font-weight: bold;
   margin-top: 12px;
+}
+main .sharing {
+  background: #fff;
+  border-radius: 0.5rem;
+  height: 70vh;
+  margin-top: 1rem;
+   
+}
+ 
+main.sharing .search .videos {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+ 
+.sharing .search h2{
+  font-size: 15px;
+  margin-top: 8px;
 }
 
 /*===================Right side starts here=========================*/
@@ -358,17 +381,6 @@ main .content .links {
 .right_side .latest_news p {
   color: brown;
 }
-main .sharing {
-  background: #fff;
-  border-radius: 0.5rem;
-  height: 70vh;
-  margin-top: 1rem;
-}
-main.sharing .search img {
-  width: 2.8rem;
-  height: 2.8rem;
-  border-radius: 50%;
-  cursor: pointer;
-}
+
 
 /*===================Right side ends here=========================*/
